@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int Solution::lis(const vector<int> &A) {
+int lis(const vector<int> &A) {
     int n = A.size();
     int sol = 0;
     vector<int> v(n);
