@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int Solution::climbStairs(int A) {
+int SolutionclimbStairs(int A) {
     int a = 1, b = 1;
     if(A == 1) return 1;
     for(int i = 2; i<=A; i++){
@@ -10,4 +10,3 @@ int Solution::climbStairs(int A) {
     }
     return b;
 }
-                                                                                                                                                                                                                                
