@@ -7,7 +7,7 @@ struct ListNode {
     ListNode(int x) : val(x), next(NULL) {}
 };
 
-ListNode* Solution::reverseList(ListNode* A) {
+ListNode* reverseList(ListNode* A) {
     if(!A || !(A->next)) return A;
     ListNode* prev = NULL;
     ListNode* cur = A;
