@@ -6,7 +6,7 @@ int isValid(string A) {
          if(c == '(' || c == '{' || c == '['){
              s.push(c);
          }
-         else{--
+         else{
              if(s.empty()) return 0;
              if(c == ')' && s.top() != '(' || c == '}' && s.top() != '{' || c == ']'  && s.top() != '[' ) return false;
              s.pop(); 
