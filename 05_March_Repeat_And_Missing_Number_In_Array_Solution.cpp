@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-vector<int> Solution::repeatedNumber(const vector<int> &A)
+vector<int> repeatedNumber(const vector<int> &A)
 {
     long long int vala = 0, valb = 0;
     int n = A.size();
