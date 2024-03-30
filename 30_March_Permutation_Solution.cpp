@@ -21,7 +21,7 @@ void solve(int ind, vector<int> &cur, vector<vector<int>> &ans, vector<int> &v, 
         }
     }
 }
-vector<vector<int>> Solution::permute(vector<int> &A)
+vector<vector<int>> permute(vector<int> &A)
 {
     int n = A.size();
     vector<vector<int>> ans;
