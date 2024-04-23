@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int Solution::isPalindrome(string A)
+int isPalindrome(string A)
 {
     vector<char> ch;
     for (char c : A)
